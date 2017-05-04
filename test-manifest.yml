@@ -7,4 +7,3 @@ applications:
   routes:
   - route: test-demo.test-cf-prod.intranet.rws.nl
   buildpack: staticfile_buildpack
-  path: ./src
