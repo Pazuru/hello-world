@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: accp-demo
+  instances: 1
+  memory: 1024M
+  disk_quota: 1024M
+  routes:
+  - route: accp-demo.test-cf-prod.intranet.rws.nl
+  buildpack: staticfile_buildpack
